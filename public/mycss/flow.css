@@ -1,0 +1,87 @@
+.card {
+    margin-top: -10px;
+}
+
+.card_flow:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    border: 15px solid transparent;
+    border-top-color: #ee79719f;
+}
+
+
+.card_flow-button-l:before {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    left: 24%;
+    top: 100%;
+    border: 15px solid transparent;
+    border-top-color: #ee79719f;
+
+
+}
+
+
+.card_flow-button-r::after {
+    content: ' ';
+    height: 0;
+    position: absolute;
+    left: 77%;
+    top: 100%;
+    border: 15px solid transparent;
+    border-top-color: #ee79719f;
+}
+
+.card_flow-button-l-col:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  left: 7%;
+  top: 100%;
+  border: 15px solid transparent;
+  border-top-color: #ee79719f;
+
+
+}
+
+
+.card_flow-button-r-col::after {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  left: 70%;
+  top: 100%;
+  border: 15px solid transparent;
+  border-top-color: #ee79719f;
+}
+
+
+
+.new_card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  margin-bottom: 1.5rem;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  border-color: #d8dbe0;
+}
+
+.flow-shadow{
+  box-shadow: 0 5px 12px  rgb(27, 185, 75) !important;
+}
+
+
+.flow-shadow-sub{
+  box-shadow: 0 5px 12px  rgb(226, 51, 66) !important;
+}
