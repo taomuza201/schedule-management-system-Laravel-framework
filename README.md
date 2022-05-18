@@ -1,6 +1,6 @@
 #  <center >Laravel framework</center >
 #  schedule management system
-  schedule management system<br /> 
+  ระบบบริหารจัดการติดตามการทำงาน <br /> 
  =>login and register  <br />
  =>ระบบสมาชิก  <br />
  =>ระบบปฏิทิน   <br />
